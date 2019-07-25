@@ -4,10 +4,16 @@ import BookDetail from './components/BookDetail';
 
 function App() {
   return (
-    <div>
-      <BookList />
-      <BookDetail />
-    </div>
+    <table>
+      <tr>
+        <td className='list-panel'>
+          <BookList/>
+        </td>
+        <td className='detail-panel'>
+          <BookDetail/>
+        </td>
+      </tr>
+    </table>
   );
 }
 

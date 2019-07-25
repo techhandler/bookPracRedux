@@ -1,6 +1,6 @@
-export default function (state=null, action) {
+export default function (state = null, action) {
 
-  switch(action.type){
+  switch (action.type) {
     case 'BOOK_SELECTED':
       return action.payload;
   }
