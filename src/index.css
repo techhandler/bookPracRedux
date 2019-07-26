@@ -19,16 +19,18 @@ table {
 }
 
 .list-panel {
-    width: 25%;
+    width: 20%;
     padding: 0;
-    border: 1px solid black;
+    border: 1px solid #ccc;
     vertical-align: top;
+    background-color: #efefef;
+    user-select: none;
 }
 
 .detail-panel {
     padding: 0 1%;
     width: 75%;
-    border: 1px solid black;
+    border: 1px solid #ccc;
     vertical-align: top;
 }
 
@@ -41,6 +43,13 @@ li {
     margin: 0;
     width: 100%;
     display: block;
-    border: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
     padding: 6%;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+li:hover{
+    background-color: #888;
+    color:#fff;
 }
